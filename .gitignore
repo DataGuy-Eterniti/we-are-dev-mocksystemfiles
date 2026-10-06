@@ -1,0 +1,27 @@
+# Windows cruft
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temp / backup originals (kept locally, never pushed)
+*~ 
+*.bak
+*.orig
+assets/videos_originals_backup/
+*.tmp
+
+# Python (compression helper scripts)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+*.log
+ffmpeg_log.txt
